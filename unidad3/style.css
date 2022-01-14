@@ -1,5 +1,6 @@
 body{
-    background-color: #D4D4D4;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(154,173,255,1) 46%, rgba(144,126,255,1) 80%, rgba(46,65,237,1) 100%);
 }
 
 h1{
@@ -14,6 +15,8 @@ img{
     display: flex;
     margin: auto;
     border: 2px solid palegreen;
+    box-shadow: 5px 5px 4px 4px rgba(0,0,0,0.32);
+    border-radius: 45px 0px 0px 0px;
 }
 
 h2{
